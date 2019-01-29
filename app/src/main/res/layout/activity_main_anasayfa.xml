@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundcolor"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity_anasayfa">
+
+    <!-- 1 2 3 -->
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="126dp"
+        android:layout_marginTop="25dp"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        /*1*/
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/kart_1"
+            android:layout_width="80dp"
+            android:layout_height="120dp"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:foreground="?android:selectableItemBackground"
+
+
+            >
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/cerclebackgroundpurple"
+                    android:padding="5dp"
+                    android:src="@drawable/ic_restaurant_menu_black_24dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="0dp"
+                    android:gravity="center"
+
+
+                    android:text="Ana Yemekler"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/lightgray" />
+
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        /*2*/
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/kart_2"
+            android:layout_width="80dp"
+            android:layout_height="120dp"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:foreground="?android:selectableItemBackground"
+
+
+            >
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:layout_margin="20dp"
+                    android:background="@android:color/holo_orange_dark"
+                    android:padding="5dp"
+                    android:src="@drawable/ic_cake_black_24dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="0dp"
+                    android:gravity="center"
+
+
+                    android:text="Tatlılar"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/lightgray" />
+
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        /*3*/
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/kart_3"
+            android:layout_width="80dp"
+            android:layout_height="120dp"
+            android:layout_margin="10dp"
+            android:foreground="?android:selectableItemBackground"
+
+
+            >
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:layout_margin="20dp"
+                    android:background="#999900"
+                    android:padding="5dp"
+                    android:src="@android:drawable/star_big_on" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="0dp"
+                    android:gravity="center"
+
+
+                    android:text="Deniz Ürünleri"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/lightgray" />
+
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+    <!--4 5 6 -->
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="126dp"
+        android:layout_marginTop="3dp"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        /*4*/
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/kart_4"
+            android:layout_width="80dp"
+            android:layout_height="120dp"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:foreground="?android:selectableItemBackground"
+
+
+            >
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/cerclebackgroundpurple"
+                    android:padding="5dp"
+                    android:src="@drawable/ic_room_service_black_24dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="0dp"
+                    android:gravity="center"
+
+
+                    android:text="İçecekler"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/lightgray" />
+
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        /*5*/
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/kart_5"
+            android:layout_width="80dp"
+            android:layout_height="120dp"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:foreground="?android:selectableItemBackground"
+
+
+            >
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:layout_margin="20dp"
+                    android:background="@android:color/holo_blue_light"
+                    android:padding="5dp"
+                    android:src="@android:drawable/ic_notification_overlay" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="0dp"
+                    android:gravity="center"
+
+
+                    android:text="Meyveler"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/lightgray" />
+
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        /*6*/
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/kart_6"
+            android:layout_width="80dp"
+            android:layout_height="120dp"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:foreground="?android:selectableItemBackground"
+
+
+            >
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:layout_margin="20dp"
+                    android:background="#545454"
+                    android:padding="5dp"
+                    android:src="@android:drawable/ic_menu_camera" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="0dp"
+                    android:gravity="center"
+
+
+                    android:text="Galeri"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/lightgray" />
+
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+    <!-- 7 8 9 -->
+
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="126dp"
+        android:layout_marginTop="3dp"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        /*7*/
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/kart_7"
+            android:layout_width="80dp"
+            android:layout_height="120dp"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:foreground="?android:selectableItemBackground"
+
+
+            >
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:layout_margin="20dp"
+                    android:background="@android:color/holo_orange_light"
+                    android:padding="5dp"
+                    android:src="@android:drawable/ic_menu_myplaces" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="0dp"
+                    android:gravity="center"
+
+
+                    android:text="Şeflerimiz"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/lightgray" />
+
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        /*8*/
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/kart_8"
+            android:layout_width="80dp"
+            android:layout_height="120dp"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:foreground="?android:selectableItemBackground"
+
+
+            >
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:layout_margin="20dp"
+                    android:background="#6f70b2"
+                    android:padding="5dp"
+                    android:src="@android:drawable/checkbox_on_background" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="0dp"
+                    android:gravity="center"
+
+
+                    android:text="Hakkımızda"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/lightgray" />
+
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        /*9*/
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/kart_9"
+            android:layout_width="80dp"
+            android:layout_height="120dp"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:foreground="?android:selectableItemBackground"
+
+
+            >
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:layout_margin="20dp"
+                    android:background="@android:color/holo_green_dark"
+                    android:padding="5dp"
+                    android:src="@android:drawable/stat_sys_headset" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="0dp"
+                    android:gravity="center"
+
+
+                    android:text="İletişim"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/lightgray" />
+
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+
+    /* Banner Reklam*/
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-5431762213260797/3014041035"></com.google.android.gms.ads.AdView>
+
+</LinearLayout>
